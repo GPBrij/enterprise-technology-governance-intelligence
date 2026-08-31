@@ -19,33 +19,48 @@ public final class GovernanceApplication {
                 V120SampleData.lifecycleRisk(), LocalDate.now()
         );
 
+        var capability = V130SampleData.customerManagement();
+        var application = V130SampleData.customerHub();
+        var landscape = V130SampleData.customerLandscape();
+        var decision = V130SampleData.targetStateApproval();
+        var repository = new ArchitectureRepositoryEngine().assess(
+                capability, application, asset, standard, landscape, decision
+        );
+
         System.out.println("Enterprise Technology Governance Intelligence Showcase");
-        System.out.println("Version: 1.2.0");
+        System.out.println("Version: 1.3.0");
         System.out.println();
-        System.out.println("=== ASSET GOVERNANCE ===");
-        System.out.println("Asset: " + asset.name() + " [" + asset.assetId() + "]");
-        System.out.println("Risk: " + governance.riskRating() + " (" + governance.riskScore() + ")");
-        System.out.println("Decision: " + governance.decision());
+        System.out.println("=== BUSINESS CAPABILITY ===");
+        System.out.println("Capability: " + capability.capabilityName());
+        System.out.println("Owner: " + capability.businessOwner());
+        System.out.println("Target maturity: " + capability.targetMaturity());
         System.out.println();
-        System.out.println("=== TECHNOLOGY STANDARD ===");
-        System.out.println("Domain: " + domain.domainName());
-        System.out.println("Standard: " + standard.standardId() + " / " + standard.status());
-        System.out.println("Compliance: " + standards.complianceStatus());
-        System.out.println("Target state: " + standards.recommendedTargetState());
+        System.out.println("=== APPLICATION PORTFOLIO ===");
+        System.out.println("Application: " + application.applicationName());
+        System.out.println("Criticality: " + application.businessCriticality());
+        System.out.println("Roadmap: " + application.roadmapStatus());
         System.out.println();
-        System.out.println("=== ARCHITECTURE WAIVER ===");
-        System.out.println("Waiver: " + waiver.waiverId());
-        System.out.println("Status: " + waiver.status());
-        System.out.println("Decision: " + waiver.decision());
-        System.out.println("Expired: " + waiver.expired());
-        System.out.println();
-        System.out.println("=== TECHNOLOGY RISK ===");
-        System.out.println("Risk: " + risk.riskId());
-        System.out.println("Inherent risk: " + risk.inherentRisk());
+        System.out.println("=== TECHNOLOGY GOVERNANCE ===");
+        System.out.println("Asset decision: " + governance.decision());
+        System.out.println("Standard compliance: " + standards.complianceStatus());
+        System.out.println("Waiver decision: " + waiver.decision());
         System.out.println("Residual risk: " + risk.residualRisk() + " / " + risk.residualRating());
-        System.out.println("Treatment: " + risk.treatmentDecision());
-        System.out.println("Overdue: " + risk.overdue());
         System.out.println();
-        System.out.println("Report: output/governance-assessment.json");
+        System.out.println("=== ARCHITECTURE LANDSCAPE ===");
+        System.out.println("Landscape: " + landscape.landscapeId());
+        System.out.println("Current state: " + landscape.currentState());
+        System.out.println("Target state: " + landscape.targetState());
+        System.out.println();
+        System.out.println("=== GOVERNANCE DECISION LOG ===");
+        System.out.println("Decision: " + decision.decisionId() + " / " + decision.decisionType());
+        System.out.println("Outcome: " + decision.outcome());
+        System.out.println("Decision owner: " + decision.decisionOwner());
+        System.out.println();
+        System.out.println("=== REPOSITORY TRACEABILITY ===");
+        System.out.println("Status: " + repository.repositoryStatus());
+        System.out.println("Traceability score: " + repository.traceabilityScore() + "%");
+        System.out.println("Target state defined: " + repository.targetStateDefined());
+        System.out.println();
+        System.out.println("Governance report: output/governance-assessment.json");
     }
 }

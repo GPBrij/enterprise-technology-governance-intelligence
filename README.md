@@ -143,3 +143,19 @@ COPY / MODIFY / DEPLOY / COMMERCIALISE?
 > The public repository contains a synthetic showcase. Commercially sensitive
 > algorithms, production configurations, credentials, customer information,
 > and confidential organisational data must not be committed.
+<!-- VERSION-1.3.0 -->
+## Version 1.3.0: Architecture Repository and Application Portfolio
+
+Version 1.3.0 adds business capability mapping, application portfolio management, architecture landscape traceability, a governance decision log and repository completeness assessment.
+
+```text
+CAPABILITY -> APPLICATION -> ASSET -> STANDARD -> WAIVER -> RISK -> DECISION -> TARGET STATE
+```
+
+See:
+
+- [`docs/BUSINESS-CAPABILITY-MODEL.md`](docs/BUSINESS-CAPABILITY-MODEL.md)
+- [`docs/APPLICATION-PORTFOLIO.md`](docs/APPLICATION-PORTFOLIO.md)
+- [`docs/ARCHITECTURE-LANDSCAPE.md`](docs/ARCHITECTURE-LANDSCAPE.md)
+- [`docs/GOVERNANCE-DECISION-LOG.md`](docs/GOVERNANCE-DECISION-LOG.md)
+- [`docs/VERSION-1.3.0.md`](docs/VERSION-1.3.0.md)

@@ -1,0 +1,10 @@
+package za.co.gpbrij.techgov;
+
+public enum DecisionType {
+    STANDARD_APPROVAL,
+    WAIVER_APPROVAL,
+    RISK_ACCEPTANCE,
+    TECHNOLOGY_RETIREMENT,
+    TARGET_STATE_APPROVAL,
+    ARCHITECTURE_SCOPE_APPROVAL
+}
