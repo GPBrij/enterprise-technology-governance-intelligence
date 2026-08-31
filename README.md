@@ -92,3 +92,54 @@ See:
 - [`docs/ARCHITECTURE-WAIVER-REGISTER.md`](docs/ARCHITECTURE-WAIVER-REGISTER.md)
 - [`docs/TECHNOLOGY-RISK-REGISTER.md`](docs/TECHNOLOGY-RISK-REGISTER.md)
 - [`docs/VERSION-1.2.0.md`](docs/VERSION-1.2.0.md)
+
+<!-- OWNERSHIP-AND-LICENSING -->
+## Ownership and Licensing
+
+Copyright (c) 2026 Patrick Brijraj. All rights reserved.
+
+This repository is publicly visible for portfolio evaluation, personal
+learning, recruitment review, academic discussion, and non-commercial
+technical evaluation. It is **not licensed under the MIT License or another
+open-source licence**.
+
+Copying, modification, redistribution, production deployment, organisational
+use, incorporation into another solution, and commercial use require prior
+written permission from the copyright owner. Any use that generates revenue,
+supports a paid service, enables consulting delivery, reduces commercial
+costs, or creates another financial benefit requires a separate written
+commercial licence.
+
+Commercial arrangements may include licence fees, subscriptions, royalties,
+revenue participation, implementation services, support services, maintenance
+services, or another mutually agreed form of compensation.
+
+See [`LICENSE`](LICENSE) for the full terms. For permission or commercial
+licensing enquiries, contact `pbrijraj@goalpostbrij.co.za`.
+
+```text
+PUBLIC VIEWING
+      |
+      +-- portfolio review
+      +-- personal learning
+      +-- non-commercial evaluation
+      |
+      v
+COPY / MODIFY / DEPLOY / COMMERCIALISE?
+      |
+      +-- NO  -> remain within evaluation permission
+      |
+      `-- YES -> prior written permission
+                     |
+                     v
+              COMMERCIAL LICENCE
+                     |
+                     +-- licence fee
+                     +-- royalty or revenue participation
+                     +-- implementation services
+                     `-- support and maintenance
+```
+
+> The public repository contains a synthetic showcase. Commercially sensitive
+> algorithms, production configurations, credentials, customer information,
+> and confidential organisational data must not be committed.

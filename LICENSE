@@ -1,0 +1,97 @@
+PROPRIETARY SOURCE-AVAILABLE LICENCE
+
+Copyright (c) 2026 Patrick Brijraj
+All Rights Reserved
+
+IMPORTANT: This is not an open-source licence. The Software is publicly
+visible only for the limited evaluation purposes stated below.
+
+1. DEFINITIONS
+
+"Owner" means Patrick Brijraj.
+
+"Software" means the source code, object code, executable files,
+documentation, architecture models, governance frameworks, decision rules,
+data models, diagrams, tests, reports, supporting scripts, and associated
+materials contained in this repository, excluding separately identified
+third-party materials.
+
+"Commercial Use" means use that directly or indirectly generates revenue,
+supports a paid product or service, enables consulting or professional
+services, reduces commercial costs, provides organisational benefit, is used
+in production, or is incorporated into an internal or external commercial
+solution.
+
+2. OWNERSHIP
+
+The Owner retains all right, title, and interest in the Software, subject to
+rights in separately identified third-party materials. Public access to the
+repository does not transfer ownership or grant rights by implication.
+
+3. LIMITED EVALUATION PERMISSION
+
+Permission is granted to access and review the Software solely for personal
+learning, portfolio assessment, academic discussion, recruitment evaluation,
+and non-commercial technical evaluation.
+
+4. RESTRICTED ACTIVITIES
+
+Without the Owner's prior written permission, no person or organisation may:
+
+(a) copy or reproduce the Software, except for temporary copies reasonably
+    necessary to view the repository;
+(b) modify, adapt, translate, merge, or create derivative works;
+(c) distribute, publish, sublicense, sell, lease, host, or transfer the
+    Software;
+(d) deploy the Software in a production, operational, consulting,
+    organisational, or commercial environment;
+(e) integrate the Software into another product, platform, service,
+    framework, proposal, demonstration, or deliverable;
+(f) use the Software for Commercial Use; or
+(g) remove or alter copyright, ownership, attribution, or licence notices.
+
+5. COMMERCIAL LICENSING
+
+Commercial Use requires a separate written commercial licence agreed with the
+Owner before use begins. Commercial terms may include licence fees,
+subscriptions, royalties, revenue participation, implementation fees, support
+fees, maintenance fees, or another mutually agreed form of compensation.
+
+No entitlement to Commercial Use arises merely because the repository is
+publicly accessible.
+
+6. CONTRIBUTIONS
+
+No issue, suggestion, pull request, code contribution, documentation change,
+or other submission transfers ownership of the Software or grants commercial
+rights. The Owner may require a separate Contributor Licence Agreement before
+accepting a contribution.
+
+7. THIRD-PARTY MATERIALS
+
+Third-party libraries, frameworks, tools, trademarks, and other materials
+remain subject to their respective licences and ownership terms. This licence
+does not restrict rights independently granted under a third-party licence.
+
+8. NO IMPLIED RIGHTS
+
+No rights are granted by implication, estoppel, access, disclosure, public
+availability, or otherwise. All rights not expressly granted are reserved.
+
+9. NO WARRANTY AND LIMITATION OF LIABILITY
+
+THE SOFTWARE IS PROVIDED FOR EVALUATION ON AN "AS IS" BASIS, WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, SECURITY, OR
+FITNESS FOR PRODUCTION USE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE OWNER SHALL NOT BE
+LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER LIABILITY ARISING FROM THE
+SOFTWARE OR ITS USE.
+
+10. PERMISSION AND COMMERCIAL ENQUIRIES
+
+To request permission or discuss commercial licensing, contact:
+
+Patrick Brijraj
+pbrijraj@goalpostbrij.co.za
