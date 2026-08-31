@@ -29,7 +29,7 @@ public final class GovernanceApplication {
                 "PRODUCTION", V150SampleData.controlEvidence(), LocalDate.now());
 
         System.out.println("Enterprise Technology Governance Intelligence Showcase");
-        System.out.println("Version: 1.5.0");
+        System.out.println("Version: 1.5.2");
         System.out.println();
         System.out.println("=== ENTERPRISE GOVERNANCE CHAIN ===");
         System.out.println("Capability: " + capability.capabilityName());
