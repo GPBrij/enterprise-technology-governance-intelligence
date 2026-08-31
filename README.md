@@ -159,3 +159,14 @@ See:
 - [`docs/ARCHITECTURE-LANDSCAPE.md`](docs/ARCHITECTURE-LANDSCAPE.md)
 - [`docs/GOVERNANCE-DECISION-LOG.md`](docs/GOVERNANCE-DECISION-LOG.md)
 - [`docs/VERSION-1.3.0.md`](docs/VERSION-1.3.0.md)
+<!-- VERSION-1.4.0 -->
+## Version 1.4.0: Technology Roadmaps and Lifecycle Forecasting
+
+```text
+ASSET -> RISK -> ROADMAP -> LIFECYCLE FORECAST -> INVESTMENT RECOMMENDATION -> TARGET STATE
+```
+
+- [`docs/TECHNOLOGY-ROADMAP.md`](docs/TECHNOLOGY-ROADMAP.md)
+- [`docs/LIFECYCLE-FORECASTING.md`](docs/LIFECYCLE-FORECASTING.md)
+- [`docs/INVESTMENT-PLANNING.md`](docs/INVESTMENT-PLANNING.md)
+- [`docs/VERSION-1.4.0.md`](docs/VERSION-1.4.0.md)
