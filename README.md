@@ -78,3 +78,17 @@ See:
 - [`docs/TECHNOLOGY-REFERENCE-MODEL.md`](docs/TECHNOLOGY-REFERENCE-MODEL.md)
 - [`docs/TECHNOLOGY-STANDARDS-CATALOGUE.md`](docs/TECHNOLOGY-STANDARDS-CATALOGUE.md)
 - [`docs/VERSION-1.1.0.md`](docs/VERSION-1.1.0.md)
+<!-- VERSION-1.2.0 -->
+## Version 1.2.0: Architecture Waivers and Technology Risks
+
+Version 1.2.0 links standards non-compliance to a time-bound Architecture Waiver Register and a transparent Technology Risk Register.
+
+```text
+ASSET -> STANDARD -> WAIVER -> RISK -> TREATMENT -> TARGET STATE
+```
+
+See:
+
+- [`docs/ARCHITECTURE-WAIVER-REGISTER.md`](docs/ARCHITECTURE-WAIVER-REGISTER.md)
+- [`docs/TECHNOLOGY-RISK-REGISTER.md`](docs/TECHNOLOGY-RISK-REGISTER.md)
+- [`docs/VERSION-1.2.0.md`](docs/VERSION-1.2.0.md)
