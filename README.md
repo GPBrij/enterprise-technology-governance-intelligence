@@ -181,3 +181,38 @@ CAPABILITY -> REFERENCE ARCHITECTURE -> PATTERN -> BUILDING BLOCKS -> CONTROLS -
 - [`docs/ARCHITECTURE-PATTERN-CATALOGUE.md`](docs/ARCHITECTURE-PATTERN-CATALOGUE.md)
 - [`docs/ARCHITECTURE-BUILDING-BLOCKS.md`](docs/ARCHITECTURE-BUILDING-BLOCKS.md)
 - [`docs/VERSION-1.5.0.md`](docs/VERSION-1.5.0.md)
+<!-- VERSION-1.5.1-DOCUMENTATION -->
+## Version 1.5.1: Repository Documentation Consolidation
+
+Version 1.5.1 consolidates all documentation iterations from v1.0.0 through
+v1.5.0 into repository-wide executive, relationship, metadata, control,
+traceability, lifecycle, reporting and target-state views.
+
+```text
+STRATEGY -> CAPABILITY -> APPLICATION -> ASSET -> STANDARD -> WAIVER -> RISK
+                                                           |
+                                                           v
+DECISION -> ROADMAP -> FORECAST -> INVESTMENT -> REFERENCE -> PATTERN -> CONTROL EVIDENCE
+```
+
+### Master documents
+
+- [`Executive Repository View`](docs/EXECUTIVE-REPOSITORY-VIEW.md)
+- [`Repository Relationship Map`](docs/REPOSITORY-RELATIONSHIP-MAP.md)
+- [`Master Meta-Field Catalogue`](docs/MASTER-META-FIELD-CATALOGUE.md)
+- [`Consolidated Control Model`](docs/CONSOLIDATED-CONTROL-MODEL.md)
+- [`Traceability and Evidence View`](docs/TRACEABILITY-AND-EVIDENCE-VIEW.md)
+- [`Consolidated Lifecycle Model`](docs/CONSOLIDATED-LIFECYCLE-MODEL.md)
+- [`Repository Reporting Model`](docs/REPOSITORY-REPORTING-MODEL.md)
+- [`Target-State and Transition Model`](docs/TARGET-STATE-AND-TRANSITION-MODEL.md)
+- [`Repository Glossary`](docs/REPOSITORY-GLOSSARY.md)
+- [`Version and Documentation Overview`](docs/VERSION-AND-DOCUMENTATION-OVERVIEW.md)
+
+### Detailed version views
+
+- [`v1.0.0 detailed view`](docs/versions/VERSION-1.0.0-DETAILED.md)
+- [`v1.1.0 detailed view`](docs/versions/VERSION-1.1.0-DETAILED.md)
+- [`v1.2.0 detailed view`](docs/versions/VERSION-1.2.0-DETAILED.md)
+- [`v1.3.0 detailed view`](docs/versions/VERSION-1.3.0-DETAILED.md)
+- [`v1.4.0 detailed view`](docs/versions/VERSION-1.4.0-DETAILED.md)
+- [`v1.5.0 detailed view`](docs/versions/VERSION-1.5.0-DETAILED.md)
