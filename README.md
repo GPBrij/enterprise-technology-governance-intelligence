@@ -216,3 +216,16 @@ DECISION -> ROADMAP -> FORECAST -> INVESTMENT -> REFERENCE -> PATTERN -> CONTROL
 - [`v1.3.0 detailed view`](docs/versions/VERSION-1.3.0-DETAILED.md)
 - [`v1.4.0 detailed view`](docs/versions/VERSION-1.4.0-DETAILED.md)
 - [`v1.5.0 detailed view`](docs/versions/VERSION-1.5.0-DETAILED.md)
+<!-- VERSION-1.5.2-KNOWLEDGE-MODEL -->
+## Version 1.5.2: Repository Knowledge Model
+
+```text
+NAVIGATE -> SELECT VIEW -> FIND ENTITY -> READ META-FIELDS -> TRACE RELATIONSHIPS -> VERIFY CONTROLS
+```
+
+- [`Repository Navigation Guide`](docs/repository/REPOSITORY-NAVIGATION-GUIDE.md)
+- [`Repository Coverage Matrix`](docs/repository/REPOSITORY-COVERAGE-MATRIX.md)
+- [`Entity Meta-Field Catalogues`](docs/metafields/)
+- [`Architecture Views`](docs/views/)
+- [`Traceability Matrices`](docs/traceability/)
+- [`Version 1.5.2`](docs/VERSION-1.5.2.md)
