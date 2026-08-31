@@ -1,0 +1,12 @@
+package za.co.gpbrij.techgov;
+
+public enum PatternType {
+    REFERENCE_ARCHITECTURE,
+    SOLUTION_PATTERN,
+    INTEGRATION_PATTERN,
+    DATA_PATTERN,
+    SECURITY_PATTERN,
+    CLOUD_PATTERN,
+    MODERNISATION_PATTERN,
+    AI_PATTERN
+}

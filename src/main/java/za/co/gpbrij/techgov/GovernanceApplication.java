@@ -19,41 +19,43 @@ public final class GovernanceApplication {
         var repository = new ArchitectureRepositoryEngine().assess(
                 capability, application, asset, standard, landscape, decision);
         var roadmap = V140SampleData.customerDatabaseRoadmap();
-        var roadmapEngine = new RoadmapEngine();
-        var roadmapAssessment = roadmapEngine.assess(roadmap, LocalDate.now());
         var forecast = new LifecycleForecastEngine().forecast(
                 "FORECAST-001", asset, LocalDate.now(), LocalDate.now().plusMonths(10));
-        var investment = roadmapEngine.recommend(asset, forecast, risk, roadmap);
+        var investment = new RoadmapEngine().recommend(asset, forecast, risk, roadmap);
+        var reference = V150SampleData.customerDataPlatformReference();
+        var pattern = V150SampleData.apiDataAccessPattern();
+        var patternAssessment = new PatternCatalogueEngine().assess(
+                pattern, reference, V150SampleData.customerPlatformBlocks(),
+                "PRODUCTION", V150SampleData.controlEvidence(), LocalDate.now());
 
         System.out.println("Enterprise Technology Governance Intelligence Showcase");
-        System.out.println("Version: 1.4.0");
+        System.out.println("Version: 1.5.0");
         System.out.println();
-        System.out.println("=== GOVERNANCE CHAIN ===");
+        System.out.println("=== ENTERPRISE GOVERNANCE CHAIN ===");
         System.out.println("Capability: " + capability.capabilityName());
         System.out.println("Application: " + application.applicationName());
         System.out.println("Asset decision: " + governance.decision());
         System.out.println("Standard compliance: " + standards.complianceStatus());
-        System.out.println("Waiver decision: " + waiver.decision());
-        System.out.println("Residual risk: " + risk.residualRisk() + " / " + risk.residualRating());
+        System.out.println("Waiver: " + waiver.decision());
+        System.out.println("Residual risk: " + risk.residualRating());
         System.out.println("Repository traceability: " + repository.traceabilityScore() + "%");
+        System.out.println("Investment action: " + investment.action());
         System.out.println();
-        System.out.println("=== TECHNOLOGY ROADMAP ===");
-        System.out.println("Roadmap: " + roadmap.roadmapId());
-        System.out.println("Current: " + roadmap.currentState());
-        System.out.println("Transition: " + roadmap.transitionState());
-        System.out.println("Target: " + roadmap.targetState());
-        System.out.println("Health: " + roadmapAssessment.roadmapHealth());
-        System.out.println("Completeness: " + roadmapAssessment.completenessScore() + "%");
+        System.out.println("=== REFERENCE ARCHITECTURE ===");
+        System.out.println("Reference: " + reference.referenceId() + " / " + reference.name());
+        System.out.println("Status: " + reference.status());
+        System.out.println("Target principle: " + reference.targetStatePrinciple());
         System.out.println();
-        System.out.println("=== LIFECYCLE FORECAST ===");
-        System.out.println("Support end: " + forecast.supportEndDate());
-        System.out.println("Months to support end: " + forecast.monthsToSupportEnd());
-        System.out.println("Forecast: " + forecast.forecastStatus());
+        System.out.println("=== ARCHITECTURE PATTERN ===");
+        System.out.println("Pattern: " + pattern.patternId() + " / " + pattern.name());
+        System.out.println("Type: " + pattern.type());
+        System.out.println("Owner: " + pattern.owner());
         System.out.println();
-        System.out.println("=== INVESTMENT RECOMMENDATION ===");
-        System.out.println("Action: " + investment.action());
-        System.out.println("Priority: " + investment.priority());
-        System.out.println("Rationale: " + investment.rationale());
-        System.out.println("Target state: " + investment.targetState());
+        System.out.println("=== PATTERN ALIGNMENT ===");
+        System.out.println("Approved: " + patternAssessment.approved());
+        System.out.println("Building blocks complete: " + patternAssessment.buildingBlocksComplete());
+        System.out.println("Controls satisfied: " + patternAssessment.controlsSatisfied());
+        System.out.println("Alignment score: " + patternAssessment.alignmentScore() + "%");
+        System.out.println("Decision: " + patternAssessment.decision());
     }
 }
