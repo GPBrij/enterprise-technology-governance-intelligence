@@ -64,3 +64,17 @@ Landscape impact: 99
 ## Portfolio positioning
 
 This project connects enterprise architecture, IT asset management, data governance, ITSM, project governance and responsible AI-ready decision support. A future AI layer should explain and summarise evidence, while deterministic controls remain visible and reviewable.
+<!-- VERSION-1.1.0 -->
+## Version 1.1.0: Reference Model and Standards Catalogue
+
+Version 1.1.0 adds a Technology Reference Model, Technology Standards Catalogue and transparent standards-compliance assessment.
+
+```text
+ASSET -> REFERENCE MODEL -> STANDARD -> COMPLIANCE -> WAIVER / TARGET STATE
+```
+
+See:
+
+- [`docs/TECHNOLOGY-REFERENCE-MODEL.md`](docs/TECHNOLOGY-REFERENCE-MODEL.md)
+- [`docs/TECHNOLOGY-STANDARDS-CATALOGUE.md`](docs/TECHNOLOGY-STANDARDS-CATALOGUE.md)
+- [`docs/VERSION-1.1.0.md`](docs/VERSION-1.1.0.md)
