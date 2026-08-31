@@ -1,0 +1,10 @@
+target/
+build/
+.idea/
+.vscode/
+*.iml
+*.log
+.env
+.env.*
+output/*
+!output/.gitkeep
